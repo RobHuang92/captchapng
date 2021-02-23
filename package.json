@@ -1,0 +1,45 @@
+{
+  "name": "captchapng3",
+  "version": "1.0.0",
+  "description": "A numeric captcha generator for Node.js",
+  "author": "Radish",
+  "main": "./lib/captchapng.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radishyell/captchapng.git"
+  },
+  "keywords": [
+    "captchapng"
+  ],
+  "dependencies": {
+    "node-pnglib": "^1.5.2"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/radishyell/captchapng/issues"
+  },
+  "homepage": "https://github.com/radishyell/captchapng#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "benchmark": "^2.1.4",
+    "captchapng": "0.0.1",
+    "coveralls": "^2.13.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
+    "pnglib": "0.0.1",
+    "pnglib-es6": "^1.0.1",
+    "should": "^11.2.1"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/ -d lib/",
+    "dev": "babel src/ --watch -d lib/"
+  }
+}
