@@ -1,6 +1,6 @@
 {
   "name": "captchapng3",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "基于node.js实现的图形验证码",
   "author": "Radish",
   "main": "./lib/captchapng.js",
